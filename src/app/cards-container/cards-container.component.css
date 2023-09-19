@@ -1,0 +1,22 @@
+.cards-container__container {
+  display: flex;
+  flex-wrap: wrap;
+
+  gap: 15px;
+
+  padding: 40px 15px;
+
+  position: relative;
+}
+
+card {
+  flex-grow: 1;
+
+  flex-basis: 30%;
+}
+
+@media screen and (max-aspect-ratio: 9/16) {
+  card {
+    flex-basis: 100%;
+  }
+}

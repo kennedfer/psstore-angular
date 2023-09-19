@@ -1,0 +1,53 @@
+.card-footer__container {
+  display: flex;
+  flex-direction: column;
+
+  width: calc(100% - 20px);
+
+  padding: 10px;
+
+  background-color: rgba(0, 0, 0, 0.75);
+
+  color: white;
+}
+
+.card-footer__price-container {
+  width: 100%;
+  display: flex;
+
+  place-items: center;
+}
+
+.card-footer__platforms-container {
+  display: flex;
+  gap: 5px;
+
+  font-weight: 600;
+}
+
+.card-footer__platforms-container > span:nth-child(2) {
+  color: rgb(153, 153, 153);
+}
+
+.card-footer__price-container > span {
+  flex-grow: 1;
+}
+
+.card-footer__detail {
+  width: 3px;
+  height: 11px;
+  background-color: #2583ac;
+
+  outline: 2px solid rgba(0, 0, 0, 0.253);
+
+  margin-right: 5px;
+}
+
+.card-footer__message {
+  font-size: larger;
+  font-weight: bold;
+}
+
+.card-footer__price {
+  font-size: 27px;
+}

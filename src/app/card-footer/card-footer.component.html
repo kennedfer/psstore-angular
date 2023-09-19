@@ -1,0 +1,12 @@
+<div class="card-footer__container">
+  <div class="card-footer__message">Play it Now!</div>
+  <div class="card-footer__price-container">
+    <div class="card-footer__detail"></div>
+    <div class="card-footer__platforms-container">
+      <span>{{ game.saleType }}</span>
+      <span>| {{ game.gamePlatforms.join(" | ") }}</span>
+    </div>
+    <span></span>
+    <div class="card-footer__price">${{ game.price.toFixed(2) }}</div>
+  </div>
+</div>

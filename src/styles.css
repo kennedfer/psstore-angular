@@ -1,1 +1,16 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+  font-family: "Arial";
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}
+
+body {
+  display: grid;
+
+  background-image: linear-gradient(-45deg, #083982, #0c1b36);
+
+  height: 100vh;
+  width: 100vw;
+}

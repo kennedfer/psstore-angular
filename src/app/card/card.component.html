@@ -1,0 +1,14 @@
+<div
+  (mouseenter)="onMouseEnter()"
+  (mouseleave)="onMouseExit()"
+  class="card__container"
+>
+  <img [src]="game.coverImage" alt="" />
+  <div class="card__footer-container">
+    <card-tag
+      [class.card__hide-element]="isSelected"
+      [isExclusive]="game.isExclusive"
+    />
+    <card-footer [game]="game" />
+  </div>
+</div>
